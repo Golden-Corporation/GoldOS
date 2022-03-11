@@ -13,7 +13,11 @@ os.system('gsettings set org.gnome.desktop.background picture-uri file:$PWD/BG.p
 time.sleep(2.5)
 
 os.system('sudo mv $PWD/NewLogo.png /usr/share/plymouth/themes/spinner/watermark.png')
-os.system('sudo mv $PWD/GoldOSMiniLogo.png /user/share/plymouth/themes/spinner/bgrt-fallback.png')
+
+try:
+    os.system('sudo mv $PWD/GoldOSMiniLogo.png /usr/share/plymouth/themes/spinner/bgrt-fallback.png')
+finally:
+    pass
 
 print('Install complete! Your system will reboot in 5 seconds.')
 
