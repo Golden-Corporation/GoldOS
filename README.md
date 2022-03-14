@@ -10,7 +10,3 @@ After unzipping it, launch a terminal in the directory that you are in and then.
 Run Install.py with the command ```python3 Install.py``` whilst being in the installer directory.
 
 Trailer: [COMING SOON]
-
-
-
-goldfirey was here :) lol
