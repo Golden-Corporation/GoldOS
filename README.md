@@ -1,16 +1,8 @@
-# GoldOS
-Testing out GoldOS, installers and more cool stuff.
-This is a project that changes Ubuntu to GoldOS!
+# GoldOS Developer build
+Hey!!!
 
-To run: 
-Press the big green Code button and download as a zip
-Sidenote: only works on ubuntu
+Before you install this version of GoldOS, Note that this was taken from the developer branch and may be not finished/not working!
 
-After unzipping it, launch a terminal in the directory that you are in and then...
-Run Install.py with the command ```python3 Install.py``` whilst being in the installer directory.
+Make sure you know what you are doing.
 
-Trailer: [COMING SOON]
-
-
-
-GoldFirey was totally here hehehehehe :)
+Install on ubuntu while still in the same directory as the python install file and do ```python3 Install.py``` in the terminal.
