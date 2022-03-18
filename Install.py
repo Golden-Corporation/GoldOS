@@ -1,8 +1,10 @@
 import os
 import time
 
-input('Before you start installing, note that this installer is a developer version and may be not ready for use. Press enter if you want to continue.')
+input('Start installing? ')
 print('Installing.')
+print('Setup may require for you to enter your password a few times.')
+time.sleep(5)
 
 os.system('sudo apt install plymouth-themes')
 os.system('gsettings set org.gnome.shell.extensions.dash-to-dock dock-position BOTTOM')
@@ -16,6 +18,8 @@ try:
     os.system('sudo mv $PWD/GoldOSMiniLogo.png /usr/share/plymouth/themes/spinner/bgrt-fallback.png')
 finally:
     pass
+
+os.system('sudo mv $PWD/OSData.txt ../usr/lib/os-release')
 
 print('Install complete! Your system will reboot in 5 seconds.')
 
