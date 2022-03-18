@@ -5,4 +5,4 @@ Before you install this version of GoldOS, Note that this was taken from the dev
 
 Make sure you know what you are doing.
 
-You can install the system on ubuntu by using the command ```python3 Install.py``` in the same directory as the install file.
+Install on ubuntu while still in the same directory as the python install file and do ```python3 Install.py``` in the terminal.
