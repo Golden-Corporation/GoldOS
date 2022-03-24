@@ -1,9 +1,8 @@
 import os
 from tkinter import *
 
-os.system('sudo cp $PWD/NewLogo.png /usr/share/plymouth/themes/spinner/watermark.png')
-os.system('sudo cp $PWD/GoldOSMiniLogo.png /user/share/plymouth/themes/spinner/bgrt-fallback.png')
-os.system('sudo cp $PWD/GoldOSMiniLogo.png /usr/share/plymouth/themes/spinner/bgrt-fallback.png')
+os.system('sudo cp $PWD/Assets/NewLogo.png /usr/share/plymouth/themes/spinner/watermark.png')
+os.system('sudo cp $PWD/Assets/GoldOSMiniLogo.png /usr/share/plymouth/themes/spinner/bgrt-fallback.png')
 
 
 window = Tk() # Only run when all other install processes are done.
@@ -15,23 +14,27 @@ def Clean():
 def DClean():
     os.system('gsettings set org.gnome.desktop.background picture-uri file:$PWD/Assets/CleanGoldDark.png')
     window.destroy()
+    print('Reboot to finish the installation.')
     
 def Firey():
     os.system('gsettings set org.gnome.desktop.background picture-uri file:$PWD/Assets/GoldFirey.png')
     window.destroy()
+    print('Reboot to finish the installation.')    
     
 def DFirey():
     os.system('gsettings set org.gnome.desktop.background picture-uri file:$PWD/Assets/GoldFireyDark.png')
     window.destroy()
-    
+    print('Reboot to finish the installation.')    
 def Horri():
     os.system('gsettings set org.gnome.desktop.background picture-uri file:$PWD/Assets/GoldHorizon.png')
     window.destroy()
+    print('Reboot to finish the installation.')
 
 def DHorri():
     os.system('gsettings set org.gnome.desktop.background picture-uri file:$PWD/Assets/GoldHorizonDark.png')
     window.destroy()
-
+    print('Reboot to finish the installation.')
+    
 clean = PhotoImage(file = 'Assets/Small/CleanGold.png')
 cleanB = Button(window, image = clean, command = Clean).grid(column = 1, row = 1)
 
