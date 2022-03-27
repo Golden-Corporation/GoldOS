@@ -1,4 +1,5 @@
-# GoldOS 1.0.0 (Build 2503_721)
+# GoldOS 1.0.0 
+
 Hello! This is an OS that adds onto ubuntu to upgrade it.
 
 To install, press the CODE button and then download the zip (Make sure you are using the main branch)
