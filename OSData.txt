@@ -1,12 +1,14 @@
-PRETTY_NAME="GoldOS 1.0.0"
-NAME="GoldOS 1.0.0 Hills"
+PRETTY_NAME="GoldOS"
+NAME="GoldOS"
 VERSION_ID="1.0.0"
 VERSION="1.0.0 (Hills)"
 VERSION_CODENAME=hills
-ID=GoldOS
+ID=goldos
 ID_LIKE=debian
 HOME_URL="https://www.ubuntu.com/"
 SUPPORT_URL="https://help.ubuntu.com/"
 BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
 PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
 UBUNTU_CODENAME=GoldOS
+BUILD_ID=2022-03-20.1
+VARIENT="Developer build"
