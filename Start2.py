@@ -3,6 +3,7 @@ from tkinter import *
 
 os.system('sudo cp $PWD/Assets/NewLogo.png /usr/share/plymouth/themes/spinner/watermark.png')
 os.system('sudo cp $PWD/Assets/GoldOSMiniLogo.png /usr/share/plymouth/themes/spinner/bgrt-fallback.png')
+os.system('sudo cp $PWD/Assets/GoldOSMiniLogo.png /usr/share/pixmaps/ubuntu-logo-icon.png')
 os.system('gsettings set org.gnome.shell.extensions.dash-to-dock dock-position BOTTOM')
 
 window = Tk() # Only run when all other install processes are done.
@@ -56,8 +57,5 @@ HorrDB = Button(window, image = HorrD, command = DHorri).grid(column = 3, row = 
 window['bg'] = '#FFBF00'
 window.title('Choose BG')
 window.geometry("630x242+150+300")
-window.resizable(False, False)
-window.mainloop()
-
 window.resizable(False, False)
 window.mainloop()
