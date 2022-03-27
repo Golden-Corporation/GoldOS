@@ -4,6 +4,7 @@ from tkinter import *
 os.system('sudo cp $PWD/Assets/NewLogo.png /usr/share/plymouth/themes/spinner/watermark.png')
 os.system('sudo cp $PWD/Assets/GoldOSMiniLogo.png /usr/share/plymouth/themes/spinner/bgrt-fallback.png')
 os.system('sudo cp $PWD/Assets/GoldOSMiniLogo.png /usr/share/pixmaps/ubuntu-logo-icon.png')
+os.system('sudo mv $PWD/OSData.txt /usr/lib/os-release')
 os.system('gsettings set org.gnome.shell.extensions.dash-to-dock dock-position BOTTOM')
 
 window = Tk() # Only run when all other install processes are done.
