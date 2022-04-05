@@ -9,8 +9,6 @@ os.system('gsettings set org.gnome.shell.extensions.dash-to-dock dock-position B
 os.system('sudo cp $PWN/Assets/NewLogo.png /usr/share/pixmaps/ubuntu-logo-dark')
 os.system('sudo mv $PWD/OSData.txt /usr/lib/os-release')
 os.system('sudo cp $PWN/Assets/NewLogo.png /usr/share/pixmaps/ubuntu-logo')
-os.system('sudo apt install kde-full')
-print You May Need To Configure KDE Plasma If You Want To Use GoldOS KDE Editon
 window = Tk() # Only run when all other install processes are done.
 
 def Clean():
