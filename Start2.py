@@ -1,15 +1,14 @@
 import os
 from tkinter import *
 
-os.system('sudo cp $PWD/VerNum.json /var/cache')
+os.system('sudo cp $PWD/VerNum.txt /var/cache/Gversion.txt')
 os.system('sudo cp $PWD/Assets/NewLogo.png /usr/share/plymouth/themes/spinner/watermark.png')
 os.system('sudo cp $PWD/Assets/GoldOSMiniLogo.png /usr/share/plymouth/themes/spinner/bgrt-fallback.png')
 os.system('sudo cp $PWD/Assets/GoldOSMiniLogo.png /usr/share/pixmaps/ubuntu-logo-icon.png')
 os.system('sudo cp $PWD/OSData.txt /etc/os-release')
 os.system('gsettings set org.gnome.shell.extensions.dash-to-dock dock-position BOTTOM')
-os.system('sudo cp $PWN/Assets/NewLogo.png /usr/share/pixmaps/ubuntu-logo-dark')
-os.system('sudo mv $PWD/OSData.txt /usr/lib/os-release')
-os.system('sudo cp $PWN/Assets/NewLogo.png /usr/share/pixmaps/ubuntu-logo')
+os.system('sudo cp $PWD/Assets/NewLogo.png /usr/share/pixmaps/ubuntu-logo-dark')
+os.system('sudo cp $PWD/Assets/NewLogo.png /usr/share/pixmaps/ubuntu-logo')
 
 window = Tk() # Only run when all other install processes are done.
 
@@ -31,7 +30,6 @@ def DFirey():
     os.system('gsettings set org.gnome.desktop.background picture-uri file:$PWD/Assets/GoldFireyDark.png')
     window.destroy()
     print('Reboot to finish the installation.')    
-
 def Horri():
     os.system('gsettings set org.gnome.desktop.background picture-uri file:$PWD/Assets/GoldHorizon.png')
     window.destroy()
