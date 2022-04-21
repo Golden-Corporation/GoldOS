@@ -1,1 +1,1 @@
-{"topRel": 1, "featureRel": 0, "patchRel": 1, "minpatchRel": 3}
+{"topRel": 6, "featureRel": 9, "patchRel": 420, "minpatchRel": 14}
