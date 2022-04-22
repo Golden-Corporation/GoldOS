@@ -4,7 +4,7 @@ import json
 updateAvailable = False
 updateId = ''
 
-version = open(r"/var/cache/VerNum.txt", "r")
+version = open(r"/var/cache/version.txt", "r")
 versionDict = json.loads(version.read())
 
 os.system('git clone https://github.com/Golden-Corporation/GoldOS /tmp/gOScache')
