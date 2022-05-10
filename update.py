@@ -9,7 +9,7 @@ localletter = ''
 version = open(r"/var/cache/Gversion.txt", "r")
 versionDict = json.loads(version.read())
 
-os.system('git clone https://github.com/Golden-Corporation/GoldOS /tmp/gOScache')
+os.system('sudo git clone https://github.com/Golden-Corporation/GoldOS /tmp/gOScache')
 
 newVersion = open(r"/tmp/gOScache/VerNum.txt", "r")
 newVersionDict = json.loads(newVersion.read())
