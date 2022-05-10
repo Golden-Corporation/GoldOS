@@ -9,6 +9,7 @@ os.system('gsettings set org.gnome.shell.extensions.dash-to-dock dock-position B
 os.system('sudo cp $PWD/Assets/NewLogo.png /usr/share/plymouth/themes/spinner/watermark.png')
 os.system('sudo cp $PWD/OSData.txt /usr/lib/os-release')
 os.system('sudo cp $PWN/Assets/NewLogo.png /usr/share/pixmaps/ubuntu-logo')
+os.system('sudo mkdir /gosapps')
 
 window = Tk() # Only run when all other install processes are done.
 
