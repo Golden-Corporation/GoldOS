@@ -8,17 +8,21 @@ os.system('sudo git clone https://github.com/Golden-Corporation/GoldOSApps /tmp/
 
 apps = open(r"/tmp/gOScache/AppList.txt", "r")
 appsFile = apps.read()
-print(appsFile)
 appsList = (appsFile.split(', '))
 
 #appsList[len(appsList) - 1] = (appsList[len(appsList) - 1].replace(f'\\n', ''))
-print(appsList[1])
 
 app1dataFile = open(f'/tmp/gOScache/{appsList[0]}/MetaData.txt')
 app1data = json.loads(app1dataFile.read())
 
 app2dataFile = open('/tmp/gOScache/' + appsList[1] + '/MetaData.txt')
 app2data = json.loads(app2dataFile.read())
+
+def install1():
+    os.system('sudo /tmp/gOScache/' + {appsList[0]} + '/Install.py')
+
+def install2():
+    os.system('sudo /tmp/gOScache/' + {appsList[1]} + '/Install.py')
 
 class App:
     def __init__(self, root):
@@ -50,7 +54,7 @@ class App:
         Download1["justify"] = "center"
         Download1["text"] = "Download"
         Download1.place(x=30,y=270,width=70,height=25)
-        Download1["command"] = self.Download1_command
+        Download1["command"] = install1
 
         AppName2=tk.Label(root)
         AppName2["fg"] = "#333333"
@@ -70,7 +74,7 @@ class App:
         Download2["justify"] = "center"
         Download2["text"] = "Download"
         Download2.place(x=330,y=270,width=70,height=25)
-        Download2["command"] = self.Download2_command
+        Download2["command"] = install2
 
     def Download1_command(self):
         print("command")
