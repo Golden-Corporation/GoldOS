@@ -1,7 +1,7 @@
 PRETTY_NAME="GoldOS"
 NAME="GoldOS"
-VERSION_ID="c1.0.1"
-VERSION="c1.0.1 (Hills)"
+VERSION_ID="B1.1.0"
+VERSION="B1.1.0 (Hills)"
 VERSION_CODENAME=hills
 ID=goldos
 ID_LIKE=debian
