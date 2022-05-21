@@ -1,4 +1,4 @@
-PRETTY_NAME="GoldOS"
+PRETTY_NAME="GoldOS 1.1.0"
 NAME="GoldOS"
 VERSION_ID="B1.1.0"
 VERSION="B1.1.0 (Hills)"
@@ -9,5 +9,5 @@ HOME_URL="https://www.ubuntu.com/"
 SUPPORT_URL="https://help.ubuntu.com/"
 BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
 PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
-UBUNTU_CODENAME=GoldOS
+UBUNTU_CODENAME=GoldOS 1.1.0 Hills
 BUILD_ID=2022-04-20.1
