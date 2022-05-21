@@ -1,4 +1,4 @@
-# GoldOS c1.0.1
+# GoldOS 1.1.0 Pre-2.1
 
 Hello! This is an OS that adds onto ubuntu to upgrade it.
 
