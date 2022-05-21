@@ -87,3 +87,5 @@ if __name__ == "__main__":
 apps.close()
 app1dataFile.close()
 app2dataFile.close()
+
+os.system('sudo rm -r /tmp/gOScache')
