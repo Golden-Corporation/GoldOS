@@ -1,3 +1,7 @@
+# WARNING
+
+This code is currenly being re-written on the rewrite branch, I don't recommend you install it at this time.
+
 # GoldOS c1.0.1
 
 Hello! This is an OS that adds onto ubuntu to upgrade it.
