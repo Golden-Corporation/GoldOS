@@ -1,6 +1,8 @@
 import os
 import time
 
+print("WARNING: This is currently being re-written and this is not recomended to be installed :\\")
+print("Install at your own risk; come back later for better code :)")
 input('Start installing? ')
 print('Installing.')
 print('Please wait for a little while, while we prepare.')
