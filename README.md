@@ -1,6 +1,6 @@
 # WARNING
-
-This code is currenly being re-written on the rewrite branch, I don't recommend you install it at this time.
+This repository is now being used for rasperry pi's/LoT 
+Feel free to use this "rewrite" if theres any issues please contact us or edit the the code
 
 # GoldOS c1.0.1
 
